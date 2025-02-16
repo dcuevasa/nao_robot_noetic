@@ -63,7 +63,7 @@
 		</inertial>
 		<xacro:insert_visu_LTibia/>
 	</link>
-	<joint name="LAnklePitch" type="revolute">
+	<joint name="LAnklePitchJoint" type="revolute">
 		<parent link="LTibia"/>
 		<child link="LAnklePitch"/>
 		<origin rpy="0 0 0" xyz="0 0 -0.1029"/>
@@ -161,7 +161,7 @@
 		</inertial>
 		<xacro:insert_visu_RTibia/>
 	</link>
-	<joint name="RAnklePitch" type="revolute">
+	<joint name="RAnklePitchJoint" type="revolute">
 		<parent link="RTibia"/>
 		<child link="RAnklePitch"/>
 		<origin rpy="0 0 0" xyz="0 0 -0.1029"/>
